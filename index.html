@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Power of CSS</title>
+</head>
+<body> 
+  <img id="Style" src="/on.jpg" alt="on" height="500" width="400px">
+  
+  <button onclick="restyle(1)">on-----</button>
+  <button onclick="restyle(0)">off----</button>
+   
+
+        <script >
+                function restyle(st) {
+              var css;
+              if (st==1) {
+                css = "/on.jpg";
+              }
+               else {
+                css = "/off.jpg";
+              }
+              document.getElementById('Style').src= css;
+            }
+              </script>
+</body>
+</html>
