@@ -1,2 +1,3 @@
 # On-and-OFF-light
-Today my child ask me to explain what is this so i create this on  using off light script 
+Today my child ask me to do this so i create this on Off light script 
+it's a simple java script image changer by switch 
